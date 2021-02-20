@@ -1,5 +1,4 @@
 
-      
 
       
 .picturesedit {
@@ -7,33 +6,32 @@ border-radius: 25% 0% 25% 0%;
 }
 
 body {
-  font-family: 'Montserrat', arial, sans-serif;  
+  font-family: 'Montserrat', sans-serif;  
+  color: white;
   font-weight: 500; 
-  background-color: rgb(100, 189, 230);
+  background-image: url(—Pngtree—starry\ dark\ blue\ purple\ aesthetic_935343\ \(1\).jpg);
+  background-size: cover;
+  background-position: 20% 25%;
   }
   
-  .button {
-    line-height: 60px;
-    border-radius: 50%;
-    background-color: #0e99c4;
-    font-size: 20px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    padding: 20px;
-    border: 5px solid #4c6baf;
-    text-decoration: none;
-  }
+  
+  
+  /* juntar os dois butoes em um só **/
 
-  .button2 {
+  .button {
+    color: #fff; 
     line-height: 60px;
     border-radius: 50%;
-    background-color: #ac4a09;
+    background-color: #ac0983;
     font-size: 20px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     padding: 20px;
-    border: 5px solid #bb3939;
+    border: 5px solid #000000;
     text-decoration: none;
   }
 
   .paragraph {
       width: 80%;
+    margin-left: 40px;
+    padding : 20px;
   }
