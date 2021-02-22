@@ -1,9 +1,27 @@
 
-
+.header {
+  font-family: 'Montserrat', sans-serif;  
+  text-align: center;
+  padding: 20px 20px;
+  margin-bottom: 50px;
+}
       
 .picturesedit {
-border-radius: 25% 0% 25% 0%;
+ float: left;
+border-radius: 50% 50%;
+padding: 10px 10px ;
+border-bottom: solid black 1px;
+border-top: solid black 1px;
+margin-right: 40px;
+background-color: black;
 }
+
+
+
+.hardskills {
+padding-top: 40px;
+}
+
 
 body {
   font-family: 'Montserrat', sans-serif;  
@@ -14,24 +32,25 @@ body {
   background-position: 20% 25%;
   }
   
-  
-  
-  /* juntar os dois butoes em um só **/
 
-  .button {
+  .button  {
     color: #fff; 
     line-height: 60px;
     border-radius: 50%;
     background-color: #ac0983;
     font-size: 20px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     padding: 20px;
     border: 5px solid #000000;
     text-decoration: none;
   }
 
-  .paragraph {
+  .elements {
       width: 80%;
     margin-left: 40px;
-    padding : 20px;
+    padding-bottom : 40px;
+    display: inline-block;
+  }
+
+  li:nth-child(2n+1) {
+  Color: rgb(213, 250, 2);
   }
